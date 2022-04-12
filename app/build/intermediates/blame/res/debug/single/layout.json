@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chat.xml",
+        "source": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_signup.xml",
+        "source": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_history.xml",
+        "source": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\src\\main\\res\\layout\\fragment_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_question.xml",
+        "source": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\src\\main\\res\\layout\\fragment_question.xml"
+    },
+    {
+        "merged": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_chat_bubble_sent.xml",
+        "source": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\src\\main\\res\\layout\\item_chat_bubble_sent.xml"
+    },
+    {
+        "merged": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_chat_bubble_received.xml",
+        "source": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\src\\main\\res\\layout\\item_chat_bubble_received.xml"
+    },
+    {
+        "merged": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_message.xml",
+        "source": "C:\\Users\\billy\\Documents\\GitHub\\Journey-Journal\\app\\src\\main\\res\\layout\\fragment_message.xml"
+    }
+]

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buttonSignup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".Code.New.Login.Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/title_height"
+            android:layout_marginStart="@dimen/large_margin"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="bottom"
+            android:text="Hello!"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_XXL" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/large_margin"
+            android:layout_marginTop="@dimen/half_margin"
+            android:layout_marginBottom="@dimen/large_margin"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center_vertical"
+            android:text="Create a new Account"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/size_L"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginStart="@dimen/large_margin"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="@dimen/large_margin"
+            android:background="@drawable/bg_grey_stroke"
+            android:paddingStart="@dimen/medium_margin"
+            android:paddingEnd="0dp">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autofillHints="no"
+                android:background="@null"
+                android:drawablePadding="@dimen/medium_margin"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:hint="@string/name"
+                android:inputType="text"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/medium_gray"
+                android:textSize="@dimen/size_M" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginStart="@dimen/large_margin"
+            android:layout_marginTop="@dimen/large_margin"
+            android:layout_marginEnd="@dimen/large_margin"
+            android:background="@drawable/bg_grey_stroke"
+            android:paddingStart="@dimen/medium_margin"
+            android:paddingEnd="0dp">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autofillHints="no"
+                android:background="@null"
+                android:drawablePadding="@dimen/medium_margin"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/medium_gray"
+                android:textSize="@dimen/size_M" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginStart="@dimen/large_margin"
+            android:layout_marginTop="@dimen/large_margin"
+            android:layout_marginEnd="@dimen/large_margin"
+            android:background="@drawable/bg_grey_stroke"
+            android:paddingStart="@dimen/medium_margin"
+            android:paddingEnd="0dp">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autofillHints="no"
+                android:background="@null"
+                android:drawablePadding="@dimen/medium_margin"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:hint="Date of Birth"
+                android:inputType="textPassword"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/medium_gray"
+                android:textSize="@dimen/size_M" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginStart="@dimen/large_margin"
+            android:layout_marginTop="@dimen/large_margin"
+            android:layout_marginEnd="@dimen/large_margin"
+            android:background="@drawable/bg_grey_stroke"
+            android:paddingStart="@dimen/medium_margin"
+            android:paddingEnd="0dp">
+
+            <EditText
+                android:id="@+id/confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autofillHints="no"
+                android:background="@null"
+                android:drawablePadding="@dimen/medium_margin"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:hint="Referral Code"
+                android:inputType="textPassword"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/medium_gray"
+                android:textSize="@dimen/size_M" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/large_margin"
+            android:layout_marginTop="@dimen/half_margin"
+            android:layout_marginEnd="@dimen/large_margin"
+            android:fontFamily="@font/roboto_regular"
+            android:text="What's this?"
+            android:textColor="@color/medium_gray"
+            android:textSize="@dimen/size_S" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/large_margin"
+            android:layout_marginTop="@dimen/large_margin"
+            android:layout_marginEnd="@dimen/large_margin"
+            android:layout_marginBottom="7dp"
+            app:cardBackgroundColor="@color/colorAccent"
+            app:cardCornerRadius="@dimen/medium_radius"
+            app:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="center"
+                    android:text="@string/sign_up"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_M" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/large_margin"
+            android:layout_marginTop="@dimen/normal_margin"
+            android:layout_marginEnd="@dimen/large_margin">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/light_gray" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/background_color"
+                android:padding="5dp"
+                android:text=" or login with "
+                android:textColor="@color/medium_gray"
+                android:textSize="@dimen/size_M" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/social_media_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/normal_margin"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@drawable/facebook" />
+
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@drawable/google" />
+
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@drawable/linkedin" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/go_to_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/large_margin"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="@dimen/large_margin"
+        android:layout_marginBottom="@dimen/large_margin"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:text="@string/already_a_member"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/size_M" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textColor="@color/red"
+            android:textSize="@dimen/size_M" />
+
+    </LinearLayout>
+
+</RelativeLayout>

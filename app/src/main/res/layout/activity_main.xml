@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    tools:context=".Code.New.Login.Login">
+
+    <FrameLayout
+        android:id="@+id/frameContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="22dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="0dp"
+        app:cardBackgroundColor="@color/white">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            android:fitsSystemWindows="true"
+            app:itemIconSize="16dp"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/bottom_nav_menu"
+            app:itemTextColor="@color/bottom_nav_text"
+            app:itemIconTint="@null"
+            app:itemTextAppearanceActive="@style/BottomNav"
+            app:itemTextAppearanceInactive="@style/BottomNav"
+            android:paddingTop="3dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

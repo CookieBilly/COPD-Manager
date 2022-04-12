@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_height">40dp</dimen>
+    <dimen name="large_margin">18dp</dimen>
+    <dimen name="normal_margin">11dp</dimen>
+    <dimen name="medium_margin">9dp</dimen>
+    <dimen name="half_margin">5dp</dimen>
+
+    <dimen name="image_button_padding">7dp</dimen>
+    <dimen name="image_button_size">28dp</dimen>
+
+    <dimen name="size_XXL">17sp</dimen>
+    <dimen name="size_XL">14sp</dimen>
+    <dimen name="size_L">12sp</dimen>
+    <dimen name="size_M">11sp</dimen>
+    <dimen name="size_S">9sp</dimen>
+    <dimen name="size_XS">7sp</dimen>
+
+    <dimen name="regular_icon_size">15dp</dimen>
+
+    <dimen name="button_height">37dp</dimen>
+
+    <dimen name="medium_radius">7dp</dimen>
+
+</resources>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".Code.New.Login.Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/title_height"
+            android:layout_marginStart="@dimen/large_margin"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="bottom"
+            android:text="Welcome!"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_XXL" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginStart="@dimen/large_margin"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Sign in to continue"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/size_L"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="@dimen/large_margin"
+            android:layout_marginTop="@dimen/half_margin"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginStart="@dimen/large_margin"
+            android:layout_marginEnd="@dimen/large_margin"
+            android:background="@drawable/bg_grey_stroke"
+            android:paddingStart="@dimen/medium_margin"
+            android:paddingEnd="0dp"
+            android:layout_marginTop="@dimen/medium_margin">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autofillHints="no"
+                android:background="@null"
+                android:drawablePadding="@dimen/medium_margin"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/medium_gray"
+                android:textSize="@dimen/size_M" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginStart="@dimen/large_margin"
+            android:layout_marginEnd="@dimen/large_margin"
+            android:background="@drawable/bg_grey_stroke"
+            android:paddingStart="@dimen/medium_margin"
+            android:layout_marginTop="@dimen/large_margin"
+            android:paddingEnd="0dp">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autofillHints="no"
+                android:background="@null"
+                android:drawablePadding="@dimen/medium_margin"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/medium_gray"
+                android:textSize="@dimen/size_M" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/size_M"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/large_margin"
+            android:layout_marginEnd="@dimen/large_margin"
+            android:layout_marginTop="@dimen/half_margin"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginStart="@dimen/large_margin"
+            android:layout_marginEnd="@dimen/large_margin"
+            app:cardBackgroundColor="@color/colorAccent"
+            app:cardCornerRadius="@dimen/medium_radius"
+            app:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent">
+
+                <TextView
+                    android:id="@+id/loginButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="center"
+                    android:text="@string/login"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_M" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/normal_margin"
+            android:layout_marginStart="@dimen/large_margin"
+            android:layout_marginEnd="@dimen/large_margin">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:background="@color/light_gray"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text=" or login with "
+                android:textColor="@color/medium_gray"
+                android:textSize="@dimen/size_M"
+                android:layout_gravity="center"
+                android:background="@color/background_color"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/social_media_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/normal_margin"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:src="@drawable/facebook"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/app_name"/>
+
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:src="@drawable/google"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/app_name"/>
+
+            <ImageView
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:src="@drawable/linkedin"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/app_name"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/go_to_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="@dimen/large_margin"
+        android:layout_marginStart="@dimen/large_margin"
+        android:layout_marginEnd="@dimen/large_margin"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:text="@string/not_a_member"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/size_M" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="@string/sign_up"
+            android:textColor="@color/red"
+            android:textSize="@dimen/size_M" />
+
+    </LinearLayout>
+
+</RelativeLayout>

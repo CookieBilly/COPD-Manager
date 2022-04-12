@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/nav_home_icon"
+        android:title="@string/home"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/nav_history_icon"
+        android:title="@string/history"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/question"
+        android:icon="@drawable/nav_question_icon"
+        android:title="@string/question"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/nav_chat_icon"
+        android:title="@string/message"
+        app:showAsAction="ifRoom"/>
+
+</menu>

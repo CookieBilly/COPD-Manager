@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Untreasured" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/background_color</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="BottomNav">
+        <item name="android:textSize">@dimen/size_XS</item>
+    </style>
+
+    <style name="ChatBubbles">
+        <item name="android:textSize">@dimen/size_M</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:paddingEnd">13dp</item>
+        <item name="android:paddingStart">13dp</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+</resources>
